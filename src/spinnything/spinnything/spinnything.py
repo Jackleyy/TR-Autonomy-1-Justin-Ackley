@@ -10,7 +10,7 @@ from std_msgs.msg import Float64MultiArray
 
 CIRCLE_PERIOD = 10
 TERM_REFRESH_PERIOD = 1 / 60
-MEASURED_PUBLISH_PERIOD = 0.5
+MEASURED_PUBLISH_PERIOD = 1.5
 
 screen = curses.initscr()
 

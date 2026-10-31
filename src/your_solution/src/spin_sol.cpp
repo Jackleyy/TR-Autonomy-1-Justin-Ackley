@@ -49,7 +49,7 @@ SpinSolution::SpinSolution() : Node("spinsolution") {
   //now call the prediction with a timer
   
   timer_ = create_wall_timer(
-    std::chrono::milliseconds(5), 
+    std::chrono::milliseconds(1), 
     std::bind(&SpinSolution::predict, this)
   );
 
